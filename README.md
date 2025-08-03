@@ -1,7 +1,7 @@
-# Traffic_Mot
+# Traffic_Road_Supervision
 Traffic flow analysis from traffic junction camera
 
-We are taking in feed from a youtube livecamera video and passing it to the detection module. The module uses a pretrained yolov4 object detection model to detect the position and class of the vehicles . This information from multiple frame is taken in by the Deepsort algorithm to create a track and unique ID for each vehicle in the video.
+As a group project, we are taking in feed from a youtube livecamera video and passing it to the detection module. The module uses a pretrained yolov4 object detection model to detect the position and class of the vehicles . This information from multiple frame is taken in by the Deepsort algorithm to create a track and unique ID for each vehicle in the video.
 The direction detection algorithm also extract the information of the direction travelled by the vehicle along with the time of detection ,store it in form of an excel sheet.
 
 The software is optimised to run on Jetson devices.(TensorFlow , TensorFlow Lite and TensorRT)
